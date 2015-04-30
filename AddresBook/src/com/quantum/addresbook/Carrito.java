@@ -17,6 +17,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class Carrito extends ListActivity{
 	Intent  intent;
+	String thisChange = "randomChangeforGitHub";
 	TextView productoId;
 	EditText total;
 	DBTools dbtools = new DBTools(this);
